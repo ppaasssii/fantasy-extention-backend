@@ -130,7 +130,7 @@ function transformData(data) {
       odds: Object.keys(odds).map((oddKey) => {
         const odd = odds[oddKey];
         return {
-          betType: odd.betTypeID, // test2
+          betType: odd.betTypeID, // test3
           player: players[odd.playerID].name || "N/A",
           stat: odd.statID,
           overUnder: odd.overUnder,
